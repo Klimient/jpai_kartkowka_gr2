@@ -1,0 +1,29 @@
+  1  git clone https://github.com/Klimient/jpai_kartkowka_gr2.git
+    2  cd
+    3  ls
+    4  cd jpai_kartkowka_gr2/
+    5  vim Dockerfile
+    6  docker build -t Dockerfile
+    7  docker build -t lab-app
+    8  docker build -t -t Dockerfile .
+    9  docker build -t Dockerfile .
+   10  docker build -t jpai_kartkowka_gr2/ .
+   11  docker build -t lab-app .
+   12  vim dowolny_plik.js
+   13  vim Dockerfile
+   14  cp app.js dowlny_plik.js
+   15  docker build -t lab-app .
+   16  vim Dockerfile
+   17  vim
+   18  vim Dockerfile
+   19  docker build -t lab-app .
+   20  cp app.js dowolny_pli.js .
+   21  vim dowolny_plik.js
+   22  cp app.js dowolny_plik.js
+   23  docker build -t lab-app .
+   24  docker build -d -p 4012:3000 --name apka lab-app
+   25  docker build -d -p4012:3000--name apka lab-app
+   26  docker run -d -p 4012:3000--name apka lab-app
+   27  docker run -d -p 4012:3000 \--name apka lab-app
+   28  curl -f http://localhost:4012/
+   29  history | tee docker.log
